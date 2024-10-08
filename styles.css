@@ -211,4 +211,34 @@
 .continue-button:hover {
     background-color: #0056b3; /* Darker shade on hover */
     transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+body {
+  font-family: 'Roboto', sans-serif; /* Default font for the body */
+}
+.register-button {
+  font-family: 'Montserrat', sans-serif; /* New professional font */
+  background-color: #007bff; /* Professional blue background */
+  color: white;              /* White text */
+  border: none;              /* No border */
+  padding: 12px 24px;       /* Padding for a larger button */
+  text-align: center;        /* Centered text */
+  text-decoration: none;     /* No underline */
+  display: inline-block;     /* Inline block */
+  font-size: 18px;           /* Slightly larger font size */
+  margin: 10px 0;           /* Margin for spacing */
+  cursor: pointer;           /* Pointer cursor on hover */
+  border-radius: 5px;       /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Transition effects */
+  box-shadow: 0 0 5px #1aff00; /* Initial glow effect */
+}
+
+.register-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+  box-shadow: 0 0 15px #00aaff, 0 0 30px #00aaff; /* Glowing effect on hover */
+}
+
+.register-button:focus {
+  outline: none; /* Remove outline on focus */
 }
